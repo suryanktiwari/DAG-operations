@@ -8,9 +8,11 @@
 4. N edges are taken as input
 5. A dictionary of the network is created with key being the node and the value being a list of nodes to which the current node directs edges to.
 
->isTrailPath() Function returns a Boolean value which states if the given trail was a path or not.
->findAncestories() function computes descendants recursively. The descendants are then used to compute the ancestors.
->makeGraph() inputs values and returns a network graph.
+> *isTrailPath()* Function returns a Boolean value which states if the given trail was a path or not.
+
+> *findAncestories()* function computes descendants recursively. The descendants are then used to compute the ancestors.
+
+> *makeGraph()* inputs values and returns a network graph.
 
 ### Assumptions:
 1. Node ids are integers
